@@ -1,11 +1,12 @@
-﻿ ﻿<Page
-    x:Class="xBindDataExample.MainPage"
+﻿<Page
+    x:Class="DataBindingListGrid040.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:d="http://schemas.microsoft.com/expression.blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:data="using:xBindDataExample.Models"
+    xmlns:data="using:DataBindingListGrid040.Models"
     mc:Ignorable="d">
+
     <Page.Resources>
         <DataTemplate x:DataType="data:Book" x:Key="BookDataTemplate">
             <StackPanel HorizontalAlignment="Center">
